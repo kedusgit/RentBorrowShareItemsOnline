@@ -1,0 +1,537 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+#mainDiv {
+	max-width: 1000px;
+	min-width: 800px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topBanner {
+	display: table;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#logoImg {
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#naviDiv {
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+}
+
+#naviDiv ul {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+#naviDiv ul li {
+	position: relative;
+	display: inline-block;
+}
+
+#naviDiv ul li a {
+	padding: 10px 15px;
+}
+
+#naviDiv ul li a:hover, #naviDiv ul li a:focus {
+	text-decoration: none;
+}
+
+#naviLogin a {
+	text-decoration: none;
+}
+
+#naviLogin:hover, #naviLogin:focus {
+	opacity: 0.75;
+}
+
+#headerDiv {
+	display: table;
+	width: 100%;
+}
+
+#headerCellLeft {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	line-height: 50px;
+	padding-left: 10px;
+}
+
+#headerCellSpan01 {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.3em;
+}
+
+#headerCellSpan02 {
+	font-size: 1.1em;
+}
+
+#headerCellRight {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+	padding-right: 10px;
+}
+
+#contentDiv {
+	display: table;
+	width: 100%;
+}
+
+#leftDiv {
+	width: 220px;
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	padding: 5px;
+	height: 450px;
+}
+
+#centerDiv {
+	display: table-cell;
+	vertical-align: top;
+	padding: 5px;
+	height: 450px;
+}
+
+#rightDiv {
+	width: 220px;
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	padding: 5px;
+	height: 450px;
+}
+
+#footerDiv {
+	color: black;
+	text-align: center;
+	padding: 5px;
+}
+
+#checkboxesDiv label {
+	padding-right: 15px;
+}
+
+#formInput {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	width: 375px;
+	height: 370px;
+	z-index: 9002;
+	border-style: solid;
+	border-color: blue;
+}
+
+#result {
+	position: absolute;
+	top: 50px;
+	left: 500px;
+	background-color: LightBlue;
+	width: 375px;
+	height: 175px;
+	z-index: 9002;
+	border-style: solid;
+	border-color: blue;
+}
+
+.h2Error {
+	text-align: center;
+	color: red;
+}
+
+.formErrorInfo {
+	color: red;
+}
+
+.form-group {
+	padding: 10px;
+}
+
+#centerDiv h2 {
+	text-align: center;
+	padding: 0;
+	margin: 5px;
+}
+
+/*
+Credits:
+Code snippet by @maridlcrmn (Follow me on Twitter)
+Images by Nike.com (http://www.nike.com/us/en_us/)
+Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
+*/
+.navbar-brand {
+	width: 70px;
+	height: 50px;
+	background:
+		url('http://www.sneaker-mission.com/uploads/3/1/2/7/31279819/5617441.png')
+		no-repeat center center;
+	background-size: 50px;
+}
+
+.nav-tabs {
+	display: inline-block;
+	border-bottom: none;
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+.nav-tabs>li>a, .nav-tabs>li>a:hover, .nav-tabs>li>a:focus, .nav-tabs>li.active>a,
+	.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	border: none;
+	border-radius: 0;
+}
+
+.nav-list {
+	border-bottom: px solid #eee;
+}
+
+.nav-list>li {
+	padding: 20px 15px 15px;
+}
+
+.nav-list>li:last-child {
+	border-right: 0px solid #eee;
+}
+
+.nav-list>li>a:hover {
+	text-decoration: none;
+}
+
+.nav-list>li>a>span {
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.mega-dropdown {
+	position: static !important;
+}
+
+.mega-dropdown-menu {
+	padding: 20px 15px 15px;
+	text-align: center;
+	width: 100%;
+}
+
+#login-dp {
+	min-width: 250px;
+	padding: 14px 14px 0;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+#login-dp .help-block {
+	font-size: 12px
+}
+
+#login-dp .bottom {
+	background-color: rgba(255, 255, 255, .8);
+	border-top: 1px solid #ddd;
+	clear: both;
+	padding: 14px;
+}
+
+#login-dp .social-buttons {
+	margin: 12px 0
+}
+
+#login-dp .social-buttons a {
+	width: 49%;
+}
+
+#login-dp .form-group {
+	margin-bottom: 10px;
+}
+
+.btn-fb {
+	color: #fff;
+	background-color: #3b5998;
+}
+
+.btn-fb:hover {
+	color: #fff;
+	background-color: #496ebc
+}
+
+.btn-tw {
+	color: #fff;
+	background-color: #55acee;
+}
+
+.btn-tw:hover {
+	color: #fff;
+	background-color: #59b5fa;
+}
+
+@media ( max-width :768px) {
+	#login-dp {
+		background-color: inherit;
+		color: #fff;
+	}
+	#login-dp .bottom {
+		background-color: inherit;
+		border-top: 0 none;
+	}
+}
+
+.navbar-login {
+	width: 305px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+.navbar-login-session {
+	padding: 10px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.icon-size {
+	font-size: 87px;
+}
+
+.navbar-brand {
+	width: 70px;
+	height: 50px;
+	background:
+		url('http://www.sneaker-mission.com/uploads/3/1/2/7/31279819/5617441.png')
+		no-repeat center center;
+	background-size: 50px;
+	padding-top: 7px;
+}
+
+.navbar-nav {
+	padding-left: 15px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #00486c;
+}
+
+.container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgb(51, 79, 111);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover,
+	.navbar-default .navbar-nav>.active>a:focus {
+	color: white;
+	background-color: #428bca;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0px;
+	margin: 2px 0px 0px;
+	font-size: 14px;
+	list-style: none;
+	background-color: white;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, 0.14902);
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	border-radius: 4px;
+	box-shadow: rgba(0, 0, 0, 0.172549) 0px 6px 12px;
+}
+
+.nav-list>li {
+	padding: 20px 15px 15px;
+	border-left: 0px;
+	.
+	nav-list
+	{
+	border-bottom
+	:
+	0px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus
+	{
+	color: white;
+	cursor: default;
+	background-color: #428bca;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus
+	{
+	color: black;
+	cursor: default;
+	background-color: rgb(255, 255, 255);
+	border: solid black 1px;
+}
+
+body {
+	padding-top: 20px;
+}
+
+#myCarousel .nav a small {
+	display: block;
+}
+
+#myCarousel .nav {
+	background: #eee;
+}
+
+.nav-justified>li>a {
+	border-radius: 0px;
+}
+
+.nav-pills>li[data-slide-to="0"].active a {
+	background-color: #16a085;
+}
+
+.nav-pills>li[data-slide-to="1"].active a {
+	background-color: #e67e22;
+}
+
+.nav-pills>li[data-slide-to="2"].active a {
+	background-color: #2980b9;
+}
+
+.nav-pills>li[data-slide-to="3"].active a {
+	background-color: #8e44ad;
+}
+
+.numberDesign {
+	width: 150px;
+}
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+	-webkit-animation-name: fadeIn; /* Fade in the background */
+	-webkit-animation-duration: 0.4s;
+	animation-name: fadeIn;
+	animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+	position: fixed;
+	bottom: 0;
+	background-color: #fefefe;
+	width: 100%;
+	-webkit-animation-name: slideIn;
+	-webkit-animation-duration: 0.4s;
+	animation-name: slideIn;
+	animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-header {
+	padding: 2px 16px;
+	background-color: #5cb85c;
+	color: white;
+}
+
+.modal-body {
+	padding: 2px 16px;
+}
+
+.modal-footer {
+	padding: 2px 16px;
+	background-color: #5cb85c;
+	color: white;
+}
+
+/* Add Animation */
+@
+-webkit-keyframes slideIn {
+	from {bottom: -300px;
+	opacity: 0
+}
+
+to {
+	bottom: 0;
+	opacity: 1
+}
+
+}
+@
+keyframes slideIn {
+	from {bottom: -300px;
+	opacity: 0
+}
+
+to {
+	bottom: 0;
+	opacity: 1
+}
+
+}
+@
+-webkit-keyframes fadeIn {
+	from {opacity: 0
+}
+
+to {
+	opacity: 1
+}
+
+}
+@
+keyframes fadeIn {
+	from {opacity: 0
+}
+
+to {
+	opacity: 1
+}
+}
